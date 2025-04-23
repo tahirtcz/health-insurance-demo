@@ -3664,8 +3664,8 @@ const sectionEl17 = document.createElement('section');
               imgEl36.setAttribute('width', '450');
               imgEl36.setAttribute('height', '638');
               imgEl36.setAttribute('loading', 'lazy');
-              imgEl36.setAttribute('src', '');
-              imgEl36.setAttribute('data-src', 'https://www.careinsurance.com/images/ipad.png');
+              imgEl36.setAttribute('src', 'https://www.careinsurance.com/images/ipad.png');
+              // imgEl36.setAttribute('data-src', '');
               imgEl36.setAttribute('class', 'lozad res_img_none');
               divEl78.append(imgEl36);
               divEl77.append(divEl78);
@@ -3682,8 +3682,8 @@ const sectionEl17 = document.createElement('section');
               imgEl37.setAttribute('width', '140');
               imgEl37.setAttribute('height', '140');
               imgEl37.setAttribute('class', 'lozad');
-              imgEl37.setAttribute('src', '');
-              imgEl37.setAttribute('data-src', 'https://www.careinsurance.com/images/map-empty.svg');
+              imgEl37.setAttribute('src', 'https://www.careinsurance.com/images/map-empty.svg');
+              // imgEl37.setAttribute('data-src', "");
               divEl80.append(imgEl37);
               divEl79.append(divEl80);
 
@@ -3718,35 +3718,36 @@ const sectionEl17 = document.createElement('section');
 
               const divEl84 = document.createElement('div');
               divEl84.setAttribute('class', 'tabs');
-
               const divEl85 = document.createElement('div');
 
-              const buttonEl = document.createElement('button');
-              buttonEl.setAttribute('class', 'tablink active');
-              buttonEl.setAttribute('data-voice', 'revies_rating_slider');
-              // buttonEl.setAttribute('onclick', 'openTab(event, '
-              //     revies_rating ')');
-              buttonEl.textContent = 'Reviews & Ratings';
-              divEl85.append(buttonEl);
-
+              // Button 1: Reviews & Ratings
+              const buttonEl1 = document.createElement('button');
+              buttonEl1.setAttribute('class', 'tablink active');
+              buttonEl1.setAttribute('data-voice', 'revies_rating_slider');
+              buttonEl1.setAttribute('onclick', "openTab(event, 'revies_rating')");
+              buttonEl1.textContent = 'Reviews & Ratings';
+              divEl85.append(buttonEl1);
+              
+              // Button 2: Testimonial
               const buttonEl2 = document.createElement('button');
               buttonEl2.setAttribute('class', 'tablink');
               buttonEl2.setAttribute('data-voice', 'testimonial_slider');
-              // buttonEl2.setAttribute('onclick', 'openTab(event, '
-              //     testimonial ')');
+              buttonEl2.setAttribute('onclick', "openTab(event, 'testimonial')");
               buttonEl2.textContent = 'Testimonial';
               divEl85.append(buttonEl2);
-
+              
+              // Button 3: Why Care Health Insurance
               const buttonEl3 = document.createElement('button');
               buttonEl3.setAttribute('class', 'tablink');
               buttonEl3.setAttribute('data-voice', 'why_religare');
-              // buttonEl3.setAttribute('onclick', 'openTab(event, '
-              //     whyreligare ')');
+              buttonEl3.setAttribute('onclick', "openTab(event, 'whyreligare')");
               buttonEl3.textContent = 'Why Care Health Insurance';
               divEl85.append(buttonEl3);
+              
+              // Append to parent containers
               divEl84.append(divEl85);
               divEl83.append(divEl84);
-
+              
               const divEl86 = document.createElement('div');
               divEl86.setAttribute('class', 'sliders');
 
@@ -4552,8 +4553,8 @@ const sectionEl17 = document.createElement('section');
               imgEl39.setAttribute('width', '90');
               imgEl39.setAttribute('height', '90');
               imgEl39.setAttribute('class', 'lozad');
-              imgEl39.setAttribute('data-src', 'https://www.careinsurance.com/images/webp/samanway-barik.webp');
-              imgEl39.setAttribute('src', '');
+          
+              imgEl39.setAttribute('src', 'https://www.careinsurance.com/images/webp/samanway-barik.webp');
               divEl165.append(imgEl39);
 
               const pEl110 = document.createElement('p');
@@ -4593,8 +4594,8 @@ const sectionEl17 = document.createElement('section');
               imgEl40.setAttribute('width', '90');
               imgEl40.setAttribute('height', '90');
               imgEl40.setAttribute('class', 'lozad');
-              imgEl40.setAttribute('data-src', 'https://www.careinsurance.com/images/webp/soubhagya-k-kulkarni.webp');
-              imgEl40.setAttribute('src', '');
+              // imgEl40.setAttribute('data-src', '');
+              imgEl40.setAttribute('src', 'https://www.careinsurance.com/images/webp/soubhagya-k-kulkarni.webp');
               divEl166.append(imgEl40);
 
               const pEl114 = document.createElement('p');
@@ -4634,8 +4635,8 @@ const sectionEl17 = document.createElement('section');
               imgEl41.setAttribute('width', '90');
               imgEl41.setAttribute('height', '90');
               imgEl41.setAttribute('class', 'lozad');
-              imgEl41.setAttribute('data-src', 'https://www.careinsurance.com/images/webp/vaibhav-rai.webp');
-              imgEl41.setAttribute('src', '');
+              // imgEl41.setAttribute('data-src', '');
+              imgEl41.setAttribute('src', 'https://www.careinsurance.com/images/webp/vaibhav-rai.webp');
               divEl167.append(imgEl41);
 
               const pEl118 = document.createElement('p');
@@ -4716,8 +4717,8 @@ const sectionEl17 = document.createElement('section');
               imgEl42.setAttribute('width', '80');
               imgEl42.setAttribute('height', '80');
               imgEl42.setAttribute('loading', 'lazy');
-              imgEl42.setAttribute('src', '');
-              imgEl42.setAttribute('data-src', 'https://www.careinsurance.com/images/Awarded-as-Claims-2023.svg');
+              imgEl42.setAttribute('src', 'https://www.careinsurance.com/images/Awarded-as-Claims-2023.svg');
+              // imgEl42.setAttribute('data-src', '');
               divEl174.append(imgEl42);
 
               const pEl123 = document.createElement('p');
@@ -4747,8 +4748,8 @@ const sectionEl17 = document.createElement('section');
               imgEl43.setAttribute('width', '80');
               imgEl43.setAttribute('height', '80');
               imgEl43.setAttribute('loading', 'lazy');
-              imgEl43.setAttribute('src', '');
-              imgEl43.setAttribute('data-src', 'https://www.careinsurance.com/images/7 Lakh+Total-claims-paid.svg');
+              imgEl43.setAttribute('src', 'https://www.careinsurance.com/images/7 Lakh+Total-claims-paid.svg');
+              // imgEl43.setAttribute('data-src', '');
               divEl175.append(imgEl43);
 
               const pEl124 = document.createElement('p');
@@ -4773,8 +4774,8 @@ const sectionEl17 = document.createElement('section');
               imgEl44.setAttribute('width', '80');
               imgEl44.setAttribute('height', '80');
               imgEl44.setAttribute('loading', 'lazy');
-              imgEl44.setAttribute('src', '');
-              imgEl44.setAttribute('data-src', 'https://www.careinsurance.com/images/hospital-networks.svg');
+              imgEl44.setAttribute('src', 'https://www.careinsurance.com/images/hospital-networks.svg');
+              // imgEl44.setAttribute('data-src', '');
               divEl176.append(imgEl44);
 
               const pEl125 = document.createElement('p');

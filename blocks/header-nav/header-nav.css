@@ -1,0 +1,9 @@
+.header-nav-wrapper{
+    max-width: 100% !important;
+    margin: auto;
+}
+
+.container.d-flex {
+    max-width: 1140px;
+    margin: 0 auto;
+}
