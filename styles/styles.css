@@ -14379,3 +14379,149 @@ body.careplusforyuva_page .home_banner .userDetail .form_data .step2 .select_mem
   }
 }
 
+
+@media only screen and (max-width: 768px) {
+  .exit_intent_popup .ab2-modal-inner-content {
+      max-width:700px
+  }
+
+  .exit_intent_popup .flex-innerform .borderdinput {
+      width: 230px
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .mobile_hide {
+      display:none!important
+  }
+
+  .mobile_show {
+      display: block!important
+  }
+
+  .exit_intent_popup .ab2-modal-inner-content {
+      width: 90vw
+  }
+
+  .exit_intent_popup .ab2-modal-inner-content .actual_popup_content .flex-survey .desktop-img {
+      display: none
+  }
+
+  .exit_intent_popup .ab2-modal-inner-content .actual_popup_content .flex-survey .flex-survey-content {
+      max-width: 100%;
+      width: 100%;
+      padding: 0
+  }
+
+  .exit_intent_popup .ab2-modal-inner-content .actual_popup_content .flex-survey .flex-survey-content .flex-mobile {
+      display: flex;
+      background: #f0f8ff
+  }
+
+  .exit_intent_popup .ab2-modal-inner-content .actual_popup_content .flex-survey .flex-survey-content .flex-mobile .mobile-img {
+      display: block;
+      width: 150px
+  }
+
+  .exit_intent_popup .ab2-modal-inner-content .actual_popup_content .flex-survey .flex-survey-content .survey .Survey-heading {
+      margin: 0;
+      padding-top: 40px
+  }
+
+  .exit_intent_popup .ab2-modal-inner-content .actual_popup_content .flex-survey .flex-survey-content .flex-reverse {
+      flex-direction: column-reverse;
+      margin: 0 20px
+  }
+
+  .exit_intent_popup .ab2-modal-inner-content .actual_popup_content .flex-survey .flex-survey-content .flex-reverse form {
+      margin: 10px 0 30px
+  }
+
+  .exit_intent_popup .ab2-modal-inner-content .actual_popup_content .flex-survey .flex-survey-content .flex-reverse form .flex-form {
+      flex-direction: column
+  }
+
+  .exit_intent_popup .ab2-modal-inner-content .actual_popup_content .flex-survey .flex-survey-content .flex-reverse form .flex-form h4 {
+      text-align: left;
+      margin: 1em 0 0
+  }
+
+  .exit_intent_popup .ab2-modal-inner-content .actual_popup_content .flex-survey .flex-survey-content .flex-reverse form .flex-form .flex-innerform .borderdinput,.exit_intent_popup .ab2-modal-inner-content .actual_popup_content .flex-survey .flex-survey-content .flex-reverse form .flex-form .flex-innerform .custum_common_btn.call_back {
+      width: 100%;
+      margin: 0
+  }
+
+  .exit_intent_popup .ab2-modal-inner-content .actual_popup_content .flex-survey .flex-survey-content .flex-reverse form .flex-form .flex-innerform .custum_common_btn.call_back {
+      margin-top: 12px
+  }
+
+  .exit_intent_popup .ab2-modal-inner-content .actual_popup_content .flex-survey .flex-survey-content .flex-reverse form .flex-form.flex-terms {
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 20px
+  }
+
+  .exit_intent_popup .ab2-modal-inner-content .actual_popup_content .flex-points .points {
+      align-items: flex-start;
+      flex-direction: column
+  }
+
+  .exit_intent_popup .ab2-modal-inner-content .actual_popup_content .flex-points .points img {
+      height: 50px
+  }
+
+  .exit_intent_popup .ab2-modal-inner-content .actual_popup_content .flex-points .points div {
+      width: 100%
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .exit_intent_popup .ab2-modal-inner-content .actual_popup_content .flex-survey .flex-survey-content .survey .Survey-heading {
+      font-size:1rem;
+      padding-top: 20px
+  }
+
+  .exit_intent_popup .ab2-modal-inner-content .actual_popup_content .flex-survey .flex-survey-content .survey .Survey-para {
+      margin-bottom: 5px;
+      font-size: .75rem
+  }
+
+  .exit_intent_popup .ab2-modal-inner-content .actual_popup_content .flex-survey .flex-survey-content .flex-reverse form .flex-form.flex-terms {
+      flex-direction: column
+  }
+
+  .exit_intent_popup .ab2-modal-inner-content .actual_popup_content .flex-survey .flex-survey-content .flex-reverse form .flex-form.flex-terms .popup_tc {
+      text-align: left
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .exit_intent_popup .ab2-modal-inner-content .actual_popup_content .flex-survey .flex-survey-content .flex-mobile .mobile-img {
+      width:100px
+  }
+
+  .exit_intent_popup .ab2-modal-inner-content .actual_popup_content .flex-survey .flex-survey-content .survey .Survey-heading {
+      font-size: .875rem;
+      padding-top: 10px
+  }
+
+  .exit_intent_popup .ab2-modal-inner-content .actual_popup_content .flex-survey .flex-survey-content .survey .Survey-para {
+      margin-bottom: 0;
+      font-size: .75rem
+  }
+
+  .watsapp_icon_cont {
+      font-size: .875rem
+  }
+
+  .comon_close_btn:before,.close1.survey_close:before {
+      font-size: 1rem!important;
+      width: 30px!important;
+      height: 30px!important;
+      line-height: 28px!important
+  }
+
+  .comon_close_btn,.close1.survey_close {
+      right: 11%!important
+  }
+}
