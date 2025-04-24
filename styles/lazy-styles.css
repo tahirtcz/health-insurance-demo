@@ -2825,7 +2825,9 @@ h2.ins_heading.common_btn.accordian_btn {
 }
 
 .JFM_Banner article .request-a-callback svg {
-    margin-right: .5rem
+    margin-right: .5rem;
+    height: 24px;
+    width: 24px;
 }
 
 .JFM_Banner article .request-a-callback a {
@@ -12780,7 +12782,8 @@ body.secure_page #add_ons .custom_container .add_ons_slider .slick-slide .add_on
 
 .home_banner .userDetail {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    gap: 40px;
 }
 
 .home_banner .userDetail .first_cont_data {
@@ -13180,7 +13183,8 @@ body.secure_page #add_ons .custom_container .add_ons_slider .slick-slide .add_on
     display: flex;
     justify-content: center;
     box-sizing: border-box;
-    font-size: 18px
+    font-size: 18px;
+    align-items: center;
 }
 
 .home_banner .userDetail .form_data .btn_custom span {

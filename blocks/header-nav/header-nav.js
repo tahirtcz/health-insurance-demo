@@ -28,7 +28,7 @@ export default function decorate(block) {
           svgEl.setAttribute('height', '24');
   
             const useEl = document.createElement('use');
-            useEl.setAttribute('src', 'https://www.careinsurance.com/images/svg_icons/icons.svg#phone_in_talk');
+            useEl.setAttribute('href', "https://www.careinsurance.com/images/svg_icons/icons.svg#phone_in_talk");
           svgEl.append(useEl);
         asideEl.append(svgEl);
   

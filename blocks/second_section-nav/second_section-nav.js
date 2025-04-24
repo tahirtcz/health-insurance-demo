@@ -2,6 +2,9 @@ export default function decorate(block) {
   const container = document.createElement('div');
   container.setAttribute('class', 'container');
 
+  const sectionEl = document.createElement('section');
+  sectionEl.setAttribute('class', 'second_section quote_navbar');
+
   const navEl = document.createElement('nav');
   navEl.setAttribute('class', 'resolution_container nav_container');
 
@@ -216,7 +219,8 @@ export default function decorate(block) {
   spanEl.textContent = 'GET QUOTE IN 1 MIN';
   asideEl.append(spanEl);
   navEl.append(asideEl);
-  container.append(navEl);
+  sectionEl.append(navEl);
+  container.append(sectionEl);
 
 
   block.textContent = '';

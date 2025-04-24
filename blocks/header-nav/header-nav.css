@@ -1,3 +1,10 @@
+.section.header-nav-container{
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+
 .header-nav-wrapper{
     max-width: 100% !important;
     margin: auto;
