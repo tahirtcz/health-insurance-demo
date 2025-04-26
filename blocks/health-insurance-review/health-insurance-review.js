@@ -1096,89 +1096,6 @@ export default function decorate(block) {
           divEl28.append(tableEl2);
           divEl3.append(divEl28);
 
-          const sectionEl8 = document.createElement('section');
-          sectionEl8.setAttribute('class', 'expert-sections');
-
-          const articleEl14 = document.createElement('article');
-          articleEl14.setAttribute('class', 'desc');
-
-          const asideEl = document.createElement('aside');
-
-          const spanEl = document.createElement('span');
-          spanEl.setAttribute('class', 'material-symbols-outlined quote mob-hide');
-          spanEl.textContent = 'format_quote';
-          asideEl.append(spanEl);
-
-          const h2El6 = document.createElement('h2');
-          h2El6.textContent = 'A Note from the Expert’s Desk';
-          asideEl.append(h2El6);
-
-          const pEl14 = document.createElement('p');
-          pEl14.textContent = 'Health Insurance is a powerful investment that is evolving to address not just unprecedented health emergencies but also chronic health conditions. Also, with medical inflation soaring yearly, having an appropriate plan is not just an option- but a necessity. With the right health insurance by your side, you can ensure access to quality healthcare without a financial strain.';
-          asideEl.append(pEl14);
-
-          const pEl15 = document.createElement('p');
-          pEl15.textContent = 'Remember to assess your loved one’s medical needs, compare policies, and choose a plan that backs them with comprehensive coverage, including hospitalisation and preventive care services. Your informed decision today can make a huge difference in your family’s health and finances in the long run—for good.';
-          asideEl.append(pEl15);
-
-          const divEl29 = document.createElement('div');
-          divEl29.setAttribute('class', 'head');
-
-          const divEl30 = document.createElement('div');
-          divEl30.setAttribute('class', 'profile-img');
-
-          const imgEl5 = document.createElement('img');
-          imgEl5.setAttribute('src', 'https://cms.careinsurance.com/cms/public/assets/media/kunal-chanana.jpg');
-          imgEl5.setAttribute('alt', 'Kunal Chanana');
-          imgEl5.setAttribute('title', 'Kunal Chanana');
-          imgEl5.setAttribute('width', '44');
-          imgEl5.setAttribute('height', '44');
-          divEl30.append(imgEl5);
-          divEl29.append(divEl30);
-
-          const divEl31 = document.createElement('div');
-          divEl31.setAttribute('class', 'name');
-
-          const smallEl5 = document.createElement('small');
-          smallEl5.textContent = 'Corporate Manager Product Development at Care Health Insurance';
-          divEl31.append(smallEl5);
-          divEl29.append(divEl31);
-
-          const aEl6 = document.createElement('a');
-          aEl6.setAttribute('href', 'https://www.careinsurance.com/blog/author/kunal-chanana/');
-          aEl6.setAttribute('target', '_blank');
-
-          const imgEl6 = document.createElement('img');
-          imgEl6.setAttribute('src', 'https://cms.careinsurance.com/cms/public/assets/media/icons-web.svg');
-          imgEl6.setAttribute('alt', 'Kunal Chanana');
-          imgEl6.setAttribute('title', 'Kunal Chanana');
-          imgEl6.setAttribute('width', '40');
-          imgEl6.setAttribute('height', '40');
-          aEl6.append(imgEl6);
-          divEl29.append(aEl6);
-
-          const aEl7 = document.createElement('a');
-          aEl7.setAttribute('href', 'https://in.linkedin.com/in/kunal-chanana-fiii-aiii-flmi-579558b4');
-          aEl7.setAttribute('target', '_blank');
-
-          const imgEl7 = document.createElement('img');
-          imgEl7.setAttribute('src', 'https://cms.careinsurance.com/cms/public/assets/media/icons-linkedin.svg');
-          imgEl7.setAttribute('alt', 'Kunal Chanana linkedin');
-          imgEl7.setAttribute('title', 'Kunal Chanana linkedin');
-          imgEl7.setAttribute('width', '40');
-          imgEl7.setAttribute('height', '40');
-          aEl7.append(imgEl7);
-          divEl29.append(aEl7);
-          asideEl.append(divEl29);
-          articleEl14.append(asideEl);
-
-          const spanEl2 = document.createElement('span');
-          spanEl2.setAttribute('class', 'material-symbols-outlined quote hide');
-          spanEl2.textContent = 'format_quote';
-          articleEl14.append(spanEl2);
-          sectionEl8.append(articleEl14);
-          divEl3.append(sectionEl8);
-
           const divEl32 = document.createElement('div');
           divEl32.setAttribute('class', 'category_cms');
 
@@ -1206,42 +1123,43 @@ export default function decorate(block) {
           const ulEl10 = document.createElement('ul');
 
           const liEl33 = document.createElement('li');
-
+liEl33.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.';
           const strongEl5 = document.createElement('strong');
           strongEl5.textContent = 'Financial Safety:';
           liEl33.append(strongEl5);
           ulEl10.append(liEl33);
 
           const liEl34 = document.createElement('li');
-
+liEl34.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.';
           const strongEl6 = document.createElement('strong');
           strongEl6.textContent = 'Coverage for Critical Illnesses:';
           liEl34.append(strongEl6);
           ulEl10.append(liEl34);
 
           const liEl35 = document.createElement('li');
-
+liEl35.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.';
           const strongEl7 = document.createElement('strong');
           strongEl7.textContent = 'Protection above Corporate Health Insurance:';
           liEl35.append(strongEl7);
           ulEl10.append(liEl35);
 
           const liEl36 = document.createElement('li');
-
+          liEl36.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.';
           const strongEl8 = document.createElement('strong');
           strongEl8.textContent = 'Cashless Claim Benefit:';
           liEl36.append(strongEl8);
           ulEl10.append(liEl36);
 
           const liEl37 = document.createElement('li');
-
+liEl37.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.';
           const strongEl9 = document.createElement('strong');
           strongEl9.textContent = 'Tax Benefits under Section 80D:';
           liEl37.append(strongEl9);
           ulEl10.append(liEl37);
 
           const liEl38 = document.createElement('li');
-
+          liEl38.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.';
+          
           const strongEl10 = document.createElement('strong');
           strongEl10.textContent = 'Wellness & Preventive Care:';
           liEl38.append(strongEl10);
@@ -1277,77 +1195,79 @@ export default function decorate(block) {
 
           const ulEl11 = document.createElement('ul');
 
-          const liEl39 = document.createElement('li');
-
+         const liEl39 = document.createElement('li');
+         liEl39.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.'
           const strongEl11 = document.createElement('strong');
           strongEl11.textContent = 'Co-payment:';
           liEl39.append(strongEl11);
           ulEl11.append(liEl39);
 
           const liEl40 = document.createElement('li');
-
+          liEl40.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.'
           const strongEl12 = document.createElement('strong');
           strongEl12.textContent = 'Deductible:';
           liEl40.append(strongEl12);
           ulEl11.append(liEl40);
 
           const liEl41 = document.createElement('li');
-
+           liEl41.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.'
           const strongEl13 = document.createElement('strong');
           strongEl13.textContent = 'Sum insured:';
           liEl41.append(strongEl13);
           ulEl11.append(liEl41);
 
           const liEl42 = document.createElement('li');
-
-          const strongEl14 = document.createElement('strong');
+          liEl42.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.' 
+          const strongEl14 = document.createElement('strong');      
           strongEl14.textContent = 'Top-up plans:';
           liEl42.append(strongEl14);
           ulEl11.append(liEl42);
 
           const liEl43 = document.createElement('li');
-
+ liEl43.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.'
           const strongEl15 = document.createElement('strong');
           strongEl15.textContent = 'Pre-existing Diseases:';
           liEl43.append(strongEl15);
           ulEl11.append(liEl43);
-
+          
           const liEl44 = document.createElement('li');
-
+          liEl44.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.'
           const strongEl16 = document.createElement('strong');
           strongEl16.textContent = 'Claim Intimation:';
           liEl44.append(strongEl16);
           ulEl11.append(liEl44);
 
           const liEl45 = document.createElement('li');
-
+           liEl45.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.'
           const strongEl17 = document.createElement('strong');
           strongEl17.textContent = 'Cashless Hospitalisation Claim:';
           liEl45.append(strongEl17);
           ulEl11.append(liEl45);
 
           const liEl46 = document.createElement('li');
-
+ liEl46.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.'
           const strongEl18 = document.createElement('strong');
           strongEl18.textContent = 'Reimbursement Claim:';
           liEl46.append(strongEl18);
           ulEl11.append(liEl46);
 
           const liEl47 = document.createElement('li');
-
+ liEl47.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.'
           const strongEl19 = document.createElement('strong');
           strongEl19.textContent = 'No Claim Bonus:';
           liEl47.append(strongEl19);
           ulEl11.append(liEl47);
 
           const liEl48 = document.createElement('li');
-
+          liEl48.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.'
           const strongEl20 = document.createElement('strong');
           strongEl20.textContent = 'Sublimits:';
           liEl48.append(strongEl20);
           ulEl11.append(liEl48);
 
           const liEl49 = document.createElement('li');
+           liEl49.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.'
+
 
           const strongEl21 = document.createElement('strong');
           strongEl21.textContent = 'Room Type:';
@@ -1355,20 +1275,22 @@ export default function decorate(block) {
           ulEl11.append(liEl49);
 
           const liEl50 = document.createElement('li');
-
+ liEl50.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.'
           const strongEl22 = document.createElement('strong');
           strongEl22.textContent = 'Room Rent Proportionate Charge:';
           liEl50.append(strongEl22);
           ulEl11.append(liEl50);
 
           const liEl51 = document.createElement('li');
-
+          liEl51.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.'
           const strongEl23 = document.createElement('strong');
           strongEl23.textContent = 'Smart Select Hospitals:';
           liEl51.append(strongEl23);
           ulEl11.append(liEl51);
 
           const liEl52 = document.createElement('li');
+           liEl52.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.'
+
 
           const strongEl24 = document.createElement('strong');
           strongEl24.textContent = 'Use of Preventive Care:';
@@ -1376,6 +1298,8 @@ export default function decorate(block) {
           ulEl11.append(liEl52);
 
           const liEl53 = document.createElement('li');
+           liEl53.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.'
+
 
           const strongEl25 = document.createElement('strong');
           strongEl25.textContent = 'Alternate Treatments in Health Insurance:';
@@ -1929,7 +1853,7 @@ export default function decorate(block) {
 
           const h3El12 = document.createElement('h3');
           h3El12.setAttribute('class', 'plan_name');
-          h3El12.textContent = 'If You are Young and Need Complete Coverage';
+          h3El12.textContent = 'If You are Young and Need Complete';
           divEl43.append(h3El12);
 
           const pEl34 = document.createElement('p');
@@ -1997,7 +1921,7 @@ export default function decorate(block) {
 
           const h3El14 = document.createElement('h3');
           h3El14.setAttribute('class', 'plan_name');
-          h3El14.textContent = 'If You Need Protection Against Critical Illnesses';
+          h3El14.textContent = 'If You Need Protection Against Critica';
           divEl47.append(h3El14);
 
           const pEl36 = document.createElement('p');
@@ -3122,36 +3046,36 @@ export default function decorate(block) {
 
           const ulEl29 = document.createElement('ul');
 
-          const liEl145 = document.createElement('li');
-
           const strongEl57 = document.createElement('strong');
           strongEl57.textContent = 'Step 1:';
+          const liEl145 = document.createElement('li');
+          liEl145.textContent = 'Download the Care Health Customer App from the Play Store or App Store.';
           liEl145.append(strongEl57);
           ulEl29.append(liEl145);
 
           const liEl146 = document.createElement('li');
-
+          liEl146.textContent = 'Download the Care Health Customer App from the Play Store or App Store.';
           const strongEl58 = document.createElement('strong');
           strongEl58.textContent = 'Step 2:';
           liEl146.append(strongEl58);
           ulEl29.append(liEl146);
 
           const liEl147 = document.createElement('li');
-
+          liEl147.textContent = 'Download the Care Health Customer App from the Play Store or App Store.';
           const strongEl59 = document.createElement('strong');
           strongEl59.textContent = 'Step 3:';
           liEl147.append(strongEl59);
           ulEl29.append(liEl147);
 
           const liEl148 = document.createElement('li');
-
+          liEl148.textContent = 'Download the Care Health Customer App from the Play Store or App Store.';
           const strongEl60 = document.createElement('strong');
           strongEl60.textContent = 'Step 4:';
           liEl148.append(strongEl60);
           ulEl29.append(liEl148);
 
           const liEl149 = document.createElement('li');
-
+          liEl149.textContent = 'Download the Care Health Customer App from the Play Store or App Store.';
           const strongEl61 = document.createElement('strong');
           strongEl61.textContent = 'Step 5:';
           liEl149.append(strongEl61);

@@ -397,8 +397,8 @@ divEl8.append(asideEl);
                     smallEl3.setAttribute('class', 'watsapp_icon_cont');
 
                       const spanEl16 = document.createElement('span');
-                      spanEl16.textContent = 'WhatsApp';
                       spanEl16.setAttribute('class', 'watsapp_icon');
+                      spanEl16.textContent = 'WhatsApp';
 
                         const imgEl10 = document.createElement('img');
                         imgEl10.setAttribute('class', 'lozad care_spritewhatsapp-new');
