@@ -8,7 +8,7 @@ export default function decorate(block) {
   
       const articleEl = document.createElement('article');
       articleEl.setAttribute('class', 'container d-flex');
-  
+
         const pEl = document.createElement('p');
         pEl.setAttribute('class', 'mobile_hide');
   
@@ -23,13 +23,11 @@ export default function decorate(block) {
         const asideEl = document.createElement('aside');
         asideEl.setAttribute('class', 'request-a-callback d-flex');
   
-          const svgEl = document.createElement('svg');
+          const svgEl = document.createElement('img');
           svgEl.setAttribute('width', '24');
           svgEl.setAttribute('height', '24');
   
-            const useEl = document.createElement('use');
-            useEl.setAttribute('href', "https://www.careinsurance.com/images/svg_icons/icons.svg#phone_in_talk");
-          svgEl.append(useEl);
+          svgEl.setAttribute('src', "https://cdn3.iconfinder.com/data/icons/pyconic-icons-1-2/512/phone-call-active-1024.png");
         asideEl.append(svgEl);
   
           const aEl = document.createElement('a');

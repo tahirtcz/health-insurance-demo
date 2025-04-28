@@ -515,8 +515,8 @@ export default function decorate(block) {
   titleEl.textContent = 'Select Language';
   svgEl6.append(titleEl);
 
-  const useEl6 = document.createElement('use');
-  useEl6.setAttribute('href', 'https://www.careinsurance.com/images/svg_icons/social-icons.svg#language');
+  const useEl6 = document.createElement('img');
+  useEl6.setAttribute('src', 'https://cdn-icons-png.freepik.com/512/15571/15571816.png');
   svgEl6.append(useEl6);
   liEl47.append(svgEl6);
 

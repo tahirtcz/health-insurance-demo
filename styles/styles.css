@@ -3574,7 +3574,7 @@ h2.ins_heading.common_btn.accordian_btn {
 }
 
 .hospital_service_background_img {
-  background-image: url(/build/assets/hospital-medical-services-bg-4beffe21.png)
+  background-image: url("https://www.careinsurance.com/build/assets/hospital-medical-services-bg-4beffe21.png")
 }
 
 #map #nh_pincodeautocomplete-list {
@@ -11069,7 +11069,7 @@ section.second_section.quote_navbar .nav_container .nav_detail ul li {
 
 section.second_section.quote_navbar .nav_container .nav_links {
   width: 56%;
-  font-size: .875rem;
+  font-size: 13px;
   height: 57px
 }
 
@@ -11128,13 +11128,13 @@ section.second_section.quote_navbar .nav_container .nav_btn {
 
 section.second_section.quote_navbar .nav_container .nav_btn span {
   width: 100%;
-  font-size: .875rem;
+  font-size: 12px;
   background: linear-gradient(120deg,#fdde46 0%,#ffd618 44%);
   display: block;
   padding: 20px 5px;
   text-align: center;
-  font-weight: 800;
-  cursor: pointer
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .nav_links ul::-webkit-scrollbar {
@@ -13051,7 +13051,7 @@ body.secure_page #add_ons .custom_container .add_ons_slider .slick-slide .add_on
   display: flex;
   justify-content: center;
   box-sizing: border-box;
-  font-size: 18px;
+  font-size: 15px;
   align-items: center;
 }
 
@@ -13694,12 +13694,12 @@ body.careplusforyuva_page .home_banner .userDetail .form_data .step2 .select_mem
 }
 
 .home_banner .userDetail .first_cont_data .pointer_cont ul li div span {
-  font-size: 14px
+  font-size: 12px
 }
 
 .home_banner .userDetail .first_cont_data .pointer_cont ul li div span.strong {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 @media only screen and (max-width:768px) {
@@ -15066,9 +15066,6 @@ section.second_section.quote_navbar .nav_container .nav_detail ul li a {
   color: #11699e
 }
 
-section.second_section.quote_navbar .nav_container .nav_links {
-  font-size: .875rem
-}
 
 section.second_section.quote_navbar .nav_container .nav_links ul {
   overflow: hidden;
@@ -16750,7 +16747,7 @@ section.second_section.quote_navbar .nav_container .nav_btn a {
 .static-steps .static-steps-section {
   display: flex;
   gap: 1rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   margin-top: 1.5rem;
   position: relative;

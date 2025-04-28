@@ -1126,35 +1126,35 @@ export default function decorate(block) {
 liEl33.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.';
           const strongEl5 = document.createElement('strong');
           strongEl5.textContent = 'Financial Safety:';
-          liEl33.append(strongEl5);
+          liEl33.prepend(strongEl5);
           ulEl10.append(liEl33);
 
           const liEl34 = document.createElement('li');
 liEl34.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.';
           const strongEl6 = document.createElement('strong');
           strongEl6.textContent = 'Coverage for Critical Illnesses:';
-          liEl34.append(strongEl6);
+          liEl34.prepend(strongEl6);
           ulEl10.append(liEl34);
 
           const liEl35 = document.createElement('li');
 liEl35.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.';
           const strongEl7 = document.createElement('strong');
           strongEl7.textContent = 'Protection above Corporate Health Insurance:';
-          liEl35.append(strongEl7);
+          liEl35.prepend(strongEl7);
           ulEl10.append(liEl35);
 
           const liEl36 = document.createElement('li');
           liEl36.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.';
           const strongEl8 = document.createElement('strong');
           strongEl8.textContent = 'Cashless Claim Benefit:';
-          liEl36.append(strongEl8);
+          liEl36.prepend(strongEl8);
           ulEl10.append(liEl36);
 
           const liEl37 = document.createElement('li');
 liEl37.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.';
           const strongEl9 = document.createElement('strong');
           strongEl9.textContent = 'Tax Benefits under Section 80D:';
-          liEl37.append(strongEl9);
+          liEl37.prepend(strongEl9);
           ulEl10.append(liEl37);
 
           const liEl38 = document.createElement('li');
@@ -1162,7 +1162,7 @@ liEl37.textContent = 'Health Insurance from Care protects you against pre- and p
           
           const strongEl10 = document.createElement('strong');
           strongEl10.textContent = 'Wellness & Preventive Care:';
-          liEl38.append(strongEl10);
+          liEl38.prepend(strongEl10);
           ulEl10.append(liEl38);
           divEl34.append(ulEl10);
           divEl33.append(divEl34);
@@ -1199,70 +1199,70 @@ liEl37.textContent = 'Health Insurance from Care protects you against pre- and p
          liEl39.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.'
           const strongEl11 = document.createElement('strong');
           strongEl11.textContent = 'Co-payment:';
-          liEl39.append(strongEl11);
+          liEl39.prepend(strongEl11);
           ulEl11.append(liEl39);
 
           const liEl40 = document.createElement('li');
           liEl40.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.'
           const strongEl12 = document.createElement('strong');
           strongEl12.textContent = 'Deductible:';
-          liEl40.append(strongEl12);
+          liEl40.prepend(strongEl12);
           ulEl11.append(liEl40);
 
           const liEl41 = document.createElement('li');
            liEl41.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.'
           const strongEl13 = document.createElement('strong');
           strongEl13.textContent = 'Sum insured:';
-          liEl41.append(strongEl13);
+          liEl41.prepend(strongEl13);
           ulEl11.append(liEl41);
 
           const liEl42 = document.createElement('li');
           liEl42.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.' 
           const strongEl14 = document.createElement('strong');      
           strongEl14.textContent = 'Top-up plans:';
-          liEl42.append(strongEl14);
+          liEl42.prepend(strongEl14);
           ulEl11.append(liEl42);
 
           const liEl43 = document.createElement('li');
  liEl43.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.'
           const strongEl15 = document.createElement('strong');
           strongEl15.textContent = 'Pre-existing Diseases:';
-          liEl43.append(strongEl15);
+          liEl43.prepend(strongEl15);
           ulEl11.append(liEl43);
           
           const liEl44 = document.createElement('li');
           liEl44.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.'
           const strongEl16 = document.createElement('strong');
           strongEl16.textContent = 'Claim Intimation:';
-          liEl44.append(strongEl16);
+          liEl44.prepend(strongEl16);
           ulEl11.append(liEl44);
 
           const liEl45 = document.createElement('li');
            liEl45.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.'
           const strongEl17 = document.createElement('strong');
           strongEl17.textContent = 'Cashless Hospitalisation Claim:';
-          liEl45.append(strongEl17);
+          liEl45.prepend(strongEl17);
           ulEl11.append(liEl45);
 
           const liEl46 = document.createElement('li');
  liEl46.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.'
           const strongEl18 = document.createElement('strong');
           strongEl18.textContent = 'Reimbursement Claim:';
-          liEl46.append(strongEl18);
+          liEl46.prepend(strongEl18);
           ulEl11.append(liEl46);
 
           const liEl47 = document.createElement('li');
  liEl47.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.'
           const strongEl19 = document.createElement('strong');
           strongEl19.textContent = 'No Claim Bonus:';
-          liEl47.append(strongEl19);
+          liEl47.prepend(strongEl19);
           ulEl11.append(liEl47);
 
           const liEl48 = document.createElement('li');
           liEl48.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.'
           const strongEl20 = document.createElement('strong');
           strongEl20.textContent = 'Sublimits:';
-          liEl48.append(strongEl20);
+          liEl48.prepend(strongEl20);
           ulEl11.append(liEl48);
 
           const liEl49 = document.createElement('li');
@@ -1271,21 +1271,21 @@ liEl37.textContent = 'Health Insurance from Care protects you against pre- and p
 
           const strongEl21 = document.createElement('strong');
           strongEl21.textContent = 'Room Type:';
-          liEl49.append(strongEl21);
+          liEl49.prepend(strongEl21);
           ulEl11.append(liEl49);
 
           const liEl50 = document.createElement('li');
  liEl50.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.'
           const strongEl22 = document.createElement('strong');
           strongEl22.textContent = 'Room Rent Proportionate Charge:';
-          liEl50.append(strongEl22);
+          liEl50.prepend(strongEl22);
           ulEl11.append(liEl50);
 
           const liEl51 = document.createElement('li');
           liEl51.textContent = 'Health Insurance from Care protects you against pre- and post-hospitalisation expenses, ambulance charges, day-care procedures, domiciliary care expenses, etc.'
           const strongEl23 = document.createElement('strong');
           strongEl23.textContent = 'Smart Select Hospitals:';
-          liEl51.append(strongEl23);
+          liEl51.prepend(strongEl23);
           ulEl11.append(liEl51);
 
           const liEl52 = document.createElement('li');
@@ -1294,7 +1294,7 @@ liEl37.textContent = 'Health Insurance from Care protects you against pre- and p
 
           const strongEl24 = document.createElement('strong');
           strongEl24.textContent = 'Use of Preventive Care:';
-          liEl52.append(strongEl24);
+          liEl52.prepend(strongEl24);
           ulEl11.append(liEl52);
 
           const liEl53 = document.createElement('li');
@@ -1303,7 +1303,7 @@ liEl37.textContent = 'Health Insurance from Care protects you against pre- and p
 
           const strongEl25 = document.createElement('strong');
           strongEl25.textContent = 'Alternate Treatments in Health Insurance:';
-          liEl53.append(strongEl25);
+          liEl53.prepend(strongEl25);
           ulEl11.append(liEl53);
           divEl3.append(ulEl11);
 
@@ -1346,54 +1346,48 @@ liEl37.textContent = 'Health Insurance from Care protects you against pre- and p
           articleEl15.setAttribute('class', 'toggle_section_tab_content active');
 
           const ulEl13 = document.createElement('ul');
-
-          const liEl57 = document.createElement('li');
-
-          const bEl9 = document.createElement('b');
-          bEl9.textContent = 'In-Patient Hospitalisation:';
-          liEl57.append(bEl9);
-          ulEl13.append(liEl57);
-
           const liEl58 = document.createElement('li');
-
+          liEl58.textContent = 'Covers expenses incurred before hospitalization, such as consultations and diagnostics.';
           const bEl10 = document.createElement('b');
           bEl10.textContent = 'Pre-Hospitalisation Medical Expenses:';
-          liEl58.append(bEl10);
+          liEl58.prepend(bEl10);
           ulEl13.append(liEl58);
-
+          
           const liEl59 = document.createElement('li');
-
+          liEl59.textContent = 'Covers follow-up treatments and medications after discharge.';
           const bEl11 = document.createElement('b');
           bEl11.textContent = 'Post-Hospitalisation Medical Expenses:';
-          liEl59.append(bEl11);
+          liEl59.prepend(bEl11);
           ulEl13.append(liEl59);
-
+          
           const liEl60 = document.createElement('li');
-
+          liEl60.textContent = 'Provides coverage for ambulance charges during emergencies.';
           const bEl12 = document.createElement('b');
           bEl12.textContent = 'Ambulance Cover:';
-          liEl60.append(bEl12);
+          liEl60.prepend(bEl12);
           ulEl13.append(liEl60);
-
+          
           const liEl61 = document.createElement('li');
-
+          liEl61.textContent = 'Includes treatments like robotic surgery or stem cell therapy.';
           const bEl13 = document.createElement('b');
           bEl13.textContent = 'Advanced Medical Treatments:';
-          liEl61.append(bEl13);
+          liEl61.prepend(bEl13);
           ulEl13.append(liEl61);
-
+          
           const liEl62 = document.createElement('li');
-
+          liEl62.textContent = 'Covers treatment taken at home under medical supervision when hospitalisation is not possible.';
           const bEl14 = document.createElement('b');
           bEl14.textContent = 'Domiciliary Hospitalisation:';
-          liEl62.append(bEl14);
+          liEl62.prepend(bEl14);
           ulEl13.append(liEl62);
-
+          
           const liEl63 = document.createElement('li');
-
+          liEl63.textContent = 'Coverage for Ayurveda, Yoga, Unani, Siddha, and Homeopathy treatments.';
           const bEl15 = document.createElement('b');
           bEl15.textContent = 'AYUSH Treatments:';
-          liEl63.append(bEl15);
+          liEl63.prepend(bEl15);
+          ulEl13.append(liEl63);
+          
 
           const aEl10 = document.createElement('a');
           aEl10.setAttribute('href', 'https://timesofindia.indiatimes.com/blogs/voices/indias-alternative-medicine-industry-grows-boosted-by-the-covid-19-pandemic/');
@@ -1704,43 +1698,43 @@ liEl37.textContent = 'Health Insurance from Care protects you against pre- and p
           divEl3.append(h2El11);
 
           const ulEl18 = document.createElement('ul');
-
           const liEl86 = document.createElement('li');
-
+          liEl86.textContent = 'Research and compare policies based on your healthcare needs.';
           const strongEl26 = document.createElement('strong');
           strongEl26.textContent = 'Shortlist a health insurance plan:';
-          liEl86.append(strongEl26);
+          liEl86.prepend(strongEl26);
           ulEl18.append(liEl86);
-
+          
           const liEl87 = document.createElement('li');
-
+          liEl87.textContent = 'Pay premiums on time to keep your policy active and avoid lapses.';
           const strongEl27 = document.createElement('strong');
           strongEl27.textContent = 'Make regular premium payments:';
-          liEl87.append(strongEl27);
+          liEl87.prepend(strongEl27);
           ulEl18.append(liEl87);
-
+          
           const liEl88 = document.createElement('li');
-
+          liEl88.textContent = 'Visit a network hospital or clinic for necessary treatment.';
           const strongEl28 = document.createElement('strong');
           strongEl28.textContent = 'Seek medical treatment:';
-          liEl88.append(strongEl28);
+          liEl88.prepend(strongEl28);
           ulEl18.append(liEl88);
-
+          
           const liEl89 = document.createElement('li');
-
+          liEl89.textContent = 'Inform the insurer and submit the required documents for your claim.';
           const strongEl29 = document.createElement('strong');
           strongEl29.textContent = 'File a claim:';
-          liEl89.append(strongEl29);
+          liEl89.prepend(strongEl29);
           ulEl18.append(liEl89);
-
+          
           const liEl90 = document.createElement('li');
-
+          liEl90.textContent = 'The insurer evaluates your claim details before approval or rejection.';
           const strongEl30 = document.createElement('strong');
           strongEl30.textContent = 'Claim assessment:';
-          liEl90.append(strongEl30);
+          liEl90.prepend(strongEl30);
           ulEl18.append(liEl90);
+          
           divEl3.append(ulEl18);
-
+          
           const pEl27 = document.createElement('p');
           pEl27.textContent = 'Let us understand the entire workings of health insurance with an example:';
           divEl3.append(pEl27);
@@ -1761,27 +1755,7 @@ liEl37.textContent = 'Health Insurance from Care protects you against pre- and p
           pEl31.textContent = 'Further, she filed a reimbursement claim for the pre-and post-hospitalisation expenses. Suvidha filled out the reimbursement form and attested it with all the bills and reports related to the hospitalisation. Her insurer verified the documents and paid the claim amount to her bank account.';
           divEl3.append(pEl31);
 
-          const divEl38 = document.createElement('div');
-          divEl38.setAttribute('class', 'dynamic_image_block');
-
-          const imgEl15 = document.createElement('img');
-          imgEl15.setAttribute('alt', 'how do health insurance plans work');
-          imgEl15.setAttribute('title', 'how do health insurance plans work');
-          imgEl15.setAttribute('class', 'dynamic_img_desktop lozad');
-          imgEl15.setAttribute('data-src', 'https://cms.careinsurance.com/cms/public/assets/media/how-do-health-insurance-plans-work-desktop.webp');
-          imgEl15.setAttribute('height', '159');
-          imgEl15.setAttribute('width', '1348');
-          divEl38.append(imgEl15);
-
-          const imgEl16 = document.createElement('img');
-          imgEl16.setAttribute('title', 'how do health insurance plans work');
-          imgEl16.setAttribute('alt', 'how do health insurance plans work');
-          imgEl16.setAttribute('class', 'dynamic_img_mobile lozad');
-          imgEl16.setAttribute('data-src', 'https://cms.careinsurance.com/cms/public/assets/media/how-do-health-insurance-plans-work-mobile.webp');
-          imgEl16.setAttribute('height', '347');
-          imgEl16.setAttribute('width', '979');
-          divEl38.append(imgEl16);
-          divEl3.append(divEl38);
+  
 
           const divEl39 = document.createElement('div');
           divEl39.setAttribute('class', 'custom_block');
@@ -2226,76 +2200,77 @@ liEl37.textContent = 'Health Insurance from Care protects you against pre- and p
           const ulEl19 = document.createElement('ul');
 
           const liEl91 = document.createElement('li');
-
+          liEl91.textContent = 'Premiums tend to be lower for younger individuals and increase with age.';
           const strongEl37 = document.createElement('strong');
           strongEl37.textContent = 'Age:';
-          liEl91.append(strongEl37);
+          liEl91.prepend(strongEl37);
           ulEl19.append(liEl91);
-
+          
           const liEl92 = document.createElement('li');
-
+          liEl92.textContent = 'Existing health conditions can lead to higher premiums or exclusions.';
           const strongEl38 = document.createElement('strong');
           strongEl38.textContent = 'Pre-existing Conditions:';
-          liEl92.append(strongEl38);
+          liEl92.prepend(strongEl38);
           ulEl19.append(liEl92);
-
+          
           const liEl93 = document.createElement('li');
-
+          liEl93.textContent = 'A high or low BMI may affect your health risk category and premium.';
           const strongEl39 = document.createElement('strong');
-          strongEl39.textContent = 'Body Mass Index(BMI):';
-          liEl93.append(strongEl39);
+          strongEl39.textContent = 'Body Mass Index (BMI):';
+          liEl93.prepend(strongEl39);
           ulEl19.append(liEl93);
-
+          
           const liEl94 = document.createElement('li');
-
+          liEl94.textContent = 'Smoking, alcohol consumption, and other habits can impact insurance costs.';
           const strongEl40 = document.createElement('strong');
           strongEl40.textContent = 'Lifestyle Habits:';
-          liEl94.append(strongEl40);
+          liEl94.prepend(strongEl40);
           ulEl19.append(liEl94);
-
+          
           const liEl95 = document.createElement('li');
-
+          liEl95.textContent = 'Different plan types offer varying coverage and benefit levels.';
           const strongEl41 = document.createElement('strong');
           strongEl41.textContent = 'Type of Plan:';
-          liEl95.append(strongEl41);
+          liEl95.prepend(strongEl41);
           ulEl19.append(liEl95);
-
+          
           const liEl96 = document.createElement('li');
-
+          liEl96.textContent = 'The higher the sum insured, the higher the premium you may pay.';
           const strongEl42 = document.createElement('strong');
           strongEl42.textContent = 'Sum Insured:';
-          liEl96.append(strongEl42);
+          liEl96.prepend(strongEl42);
           ulEl19.append(liEl96);
-
+          
           const liEl97 = document.createElement('li');
-
+          liEl97.textContent = 'Deductibles and co-payments reduce your premium but increase your out-of-pocket costs.';
           const strongEl43 = document.createElement('strong');
           strongEl43.textContent = 'Deductibles and Co-Payment:';
-          liEl97.append(strongEl43);
+          liEl97.prepend(strongEl43);
           ulEl19.append(liEl97);
-
+          
           const liEl98 = document.createElement('li');
-
+          liEl98.textContent = 'Optional benefits can enhance coverage but increase the overall premium.';
           const strongEl44 = document.createElement('strong');
           strongEl44.textContent = 'Add-On Covers:';
-          liEl98.append(strongEl44);
+          liEl98.prepend(strongEl44);
           ulEl19.append(liEl98);
-
+          
           const liEl99 = document.createElement('li');
-
+          liEl99.textContent = 'Medical costs and risk factors vary by region, influencing premium rates.';
           const strongEl45 = document.createElement('strong');
           strongEl45.textContent = 'Location:';
-          liEl99.append(strongEl45);
+          liEl99.prepend(strongEl45);
           ulEl19.append(liEl99);
-
+          
           const liEl100 = document.createElement('li');
-
+          liEl100.textContent = 'A family history of illness can lead to a higher risk profile.';
           const strongEl46 = document.createElement('strong');
           strongEl46.textContent = 'Medical History of Family:';
-          liEl100.append(strongEl46);
+          liEl100.prepend(strongEl46);
           ulEl19.append(liEl100);
+          
           divEl3.append(ulEl19);
-
+          
 
           const sectionEl14 = document.createElement('section');
           sectionEl14.setAttribute('class', 'tab_toggle_section');
@@ -2338,59 +2313,60 @@ liEl37.textContent = 'Health Insurance from Care protects you against pre- and p
           articleEl25.append(pEl47);
 
           const ulEl21 = document.createElement('ul');
-
           const liEl105 = document.createElement('li');
-
+          liEl105.textContent = 'Review the insurer’s terms to ensure you meet age, health, and residency criteria.';
           const bEl31 = document.createElement('b');
           bEl31.textContent = 'Verify Eligibility:';
-          liEl105.append(bEl31);
+          liEl105.prepend(bEl31);
           ulEl21.append(liEl105);
-
+          
           const liEl106 = document.createElement('li');
-
+          liEl106.textContent = 'Choose a policy that offers comprehensive protection for various medical needs.';
           const bEl32 = document.createElement('b');
           bEl32.textContent = 'Ensure Maximum Coverage:';
-          liEl106.append(bEl32);
+          liEl106.prepend(bEl32);
           ulEl21.append(liEl106);
-
+          
           const liEl107 = document.createElement('li');
-
+          liEl107.textContent = 'Compare different plans to find one that balances benefits and cost.';
           const bEl33 = document.createElement('b');
           bEl33.textContent = 'Look for Affordable Premium:';
-          liEl107.append(bEl33);
+          liEl107.prepend(bEl33);
           ulEl21.append(liEl107);
-
+          
           const liEl108 = document.createElement('li');
-
+          liEl108.textContent = 'Understand what medical conditions or treatments are not covered by the policy.';
           const bEl34 = document.createElement('b');
           bEl34.textContent = 'Check Exclusions:';
-          liEl108.append(bEl34);
+          liEl108.prepend(bEl34);
           ulEl21.append(liEl108);
-
+          
           const liEl109 = document.createElement('li');
-
+          liEl109.textContent = 'Be aware of the percentage of the bill you may need to pay from your pocket.';
           const bEl35 = document.createElement('b');
           bEl35.textContent = 'Understand the Co-Payment Clause:';
-          liEl109.append(bEl35);
+          liEl109.prepend(bEl35);
           ulEl21.append(liEl109);
+          
 
           const liEl110 = document.createElement('li');
-
+          liEl110.textContent = 'Choose a plan that allows you to access a wide network.';
           const bEl36 = document.createElement('b');
           bEl36.textContent = 'Select Wide Cashless Network Hospitals:';
-          liEl110.append(bEl36);
+          liEl110.prepend(bEl36);
 
           const aEl16 = document.createElement('a');
+          aEl16.textContent = 'Choose a plan that allows you to access a for cashless treatment.';
           aEl16.setAttribute('href', 'https://www.careinsurance.com/health-insurance/cashless-health-insurance');
           aEl16.textContent = 'cashless treatment';
           liEl110.append(aEl16);
           ulEl21.append(liEl110);
 
           const liEl111 = document.createElement('li');
-
+          liEl111.textContent = 'Choose a plan that allows you to access a wide network of hospitals for cashless treatment.';
           const bEl37 = document.createElement('b');
           bEl37.textContent = 'Bid for Higher Claim Settlement Ratio:';
-          liEl111.append(bEl37);
+          liEl111.prepend(bEl37);
           ulEl21.append(liEl111);
           articleEl25.append(ulEl21);
           sectionEl14.append(articleEl25);
@@ -2768,47 +2744,49 @@ liEl37.textContent = 'Health Insurance from Care protects you against pre- and p
           const ulEl28 = document.createElement('ul');
 
           const liEl139 = document.createElement('li');
+liEl139.textContent = 'Health insurance is not only meant for seniors, but is also important for younger people to secure future medical needs.';
+const strongEl47 = document.createElement('strong');
+strongEl47.textContent = 'Health Insurance is only meant for seniors:';
+liEl139.prepend(strongEl47);
+ulEl28.append(liEl139);
 
-          const strongEl47 = document.createElement('strong');
-          strongEl47.textContent = 'Health Insurance is only meant for seniors:';
-          liEl139.append(strongEl47);
-          ulEl28.append(liEl139);
+const liEl140 = document.createElement('li');
+liEl140.textContent = 'Coverage may vary by policy, and some may have a waiting period before benefits begin, so read carefully.';
+const strongEl48 = document.createElement('strong');
+strongEl48.textContent = 'Coverage Begins Immediately Upon Purchase:';
+liEl140.prepend(strongEl48);
+ulEl28.append(liEl140);
 
-          const liEl140 = document.createElement('li');
+const liEl141 = document.createElement('li');
+liEl141.textContent = 'Cheaper plans may not provide comprehensive coverage, so choosing the right plan is more important than just price.';
+const strongEl49 = document.createElement('strong');
+strongEl49.textContent = 'The Cheapest Plan is the Best Choice:';
+liEl141.prepend(strongEl49);
+ulEl28.append(liEl141);
 
-          const strongEl48 = document.createElement('strong');
-          strongEl48.textContent = 'Coverage Begins Immediately Upon Purchase:';
-          liEl140.append(strongEl48);
-          ulEl28.append(liEl140);
+const liEl142 = document.createElement('li');
+liEl142.textContent = 'Pre-existing conditions may be covered after a waiting period, so check the policy terms before assuming they disqualify you.';
+const strongEl50 = document.createElement('strong');
+strongEl50.textContent = 'Pre-Existing Diseases Disqualify You From Health Insurance:';
+liEl142.prepend(strongEl50);
+ulEl28.append(liEl142);
 
-          const liEl141 = document.createElement('li');
+const liEl143 = document.createElement('li');
+liEl143.textContent = 'A group health plan might be sufficient for some, but individual coverage provides better customization for personal healthcare needs.';
+const strongEl51 = document.createElement('strong');
+strongEl51.textContent = 'Group Health Plan is Enough:';
+liEl143.prepend(strongEl51);
+ulEl28.append(liEl143);
 
-          const strongEl49 = document.createElement('strong');
-          strongEl49.textContent = 'The Cheapest Plan is the Best Choice:';
-          liEl141.append(strongEl49);
-          ulEl28.append(liEl141);
+const liEl144 = document.createElement('li');
+liEl144.textContent = 'Not all hospital bills are covered; certain treatments and expenses may have exclusions or co-payments.';
+const strongEl52 = document.createElement('strong');
+strongEl52.textContent = 'All Hospital Bills are Covered:';
+liEl144.prepend(strongEl52);
+ulEl28.append(liEl144);
 
-          const liEl142 = document.createElement('li');
+divEl3.append(ulEl28);
 
-          const strongEl50 = document.createElement('strong');
-          strongEl50.textContent = 'Pre-Existing Diseases Disqualify You From Health Insurance:';
-          liEl142.append(strongEl50);
-          ulEl28.append(liEl142);
-
-          const liEl143 = document.createElement('li');
-
-          const strongEl51 = document.createElement('strong');
-          strongEl51.textContent = 'Group Health Plan is Enough:';
-          liEl143.append(strongEl51);
-          ulEl28.append(liEl143);
-
-          const liEl144 = document.createElement('li');
-
-          const strongEl52 = document.createElement('strong');
-          strongEl52.textContent = 'All Hospital Bills are Covered:';
-          liEl144.append(strongEl52);
-          ulEl28.append(liEl144);
-          divEl3.append(ulEl28);
 
           const h2El20 = document.createElement('h2');
           h2El20.setAttribute('id', 'health-insurance-portability');
@@ -2869,7 +2847,7 @@ liEl37.textContent = 'Health Insurance from Care protects you against pre- and p
 
           const spanEl6 = document.createElement('span');
           spanEl6.setAttribute('class', 'clain_image lozad');
-          spanEl6.setAttribute('data-background-image', 'https://www.careinsurance.com/cpproject/rhiclfrontend/assets/public/images/arrow-card.png');
+          // spanEl6.setAttribute('data-background-image', 'https://www.careinsurance.com/cpproject/rhiclfrontend/assets/public/images/arrow-card.png');
           divEl55.append(spanEl6);
           divEl54.append(divEl55);
 
@@ -2901,7 +2879,7 @@ liEl37.textContent = 'Health Insurance from Care protects you against pre- and p
 
           const spanEl9 = document.createElement('span');
           spanEl9.setAttribute('class', 'clain_image lozad');
-          spanEl9.setAttribute('data-background-image', 'https://www.careinsurance.com/cpproject/rhiclfrontend/assets/public/images/arrow-card.png');
+          // spanEl9.setAttribute('data-background-image', 'https://www.careinsurance.com/cpproject/rhiclfrontend/assets/public/images/arrow-card.png');
           divEl57.append(spanEl9);
           divEl54.append(divEl57);
 
@@ -2933,7 +2911,7 @@ liEl37.textContent = 'Health Insurance from Care protects you against pre- and p
 
           const spanEl12 = document.createElement('span');
           spanEl12.setAttribute('class', 'clain_image lozad');
-          spanEl12.setAttribute('data-background-image', 'https://www.careinsurance.com/cpproject/rhiclfrontend/assets/public/images/arrow-card.png');
+          // spanEl12.setAttribute('data-background-image', 'https://www.careinsurance.com/cpproject/rhiclfrontend/assets/public/images/arrow-card.png');
           divEl59.append(spanEl12);
           divEl54.append(divEl59);
 
@@ -2965,7 +2943,7 @@ liEl37.textContent = 'Health Insurance from Care protects you against pre- and p
 
           const spanEl15 = document.createElement('span');
           spanEl15.setAttribute('class', 'clain_image_tick lozad');
-          spanEl15.setAttribute('data-background-image', 'https://www.careinsurance.com/cpproject/rhiclfrontend/assets/public/images/tick-port.png');
+          // spanEl15.setAttribute('data-background-image', 'https://www.careinsurance.com/cpproject/rhiclfrontend/assets/public/images/tick-port.png');
           divEl61.append(spanEl15);
           divEl54.append(divEl61);
           divEl53.append(divEl54);
@@ -3046,42 +3024,43 @@ liEl37.textContent = 'Health Insurance from Care protects you against pre- and p
 
           const ulEl29 = document.createElement('ul');
 
-          const strongEl57 = document.createElement('strong');
-          strongEl57.textContent = 'Step 1:';
           const liEl145 = document.createElement('li');
           liEl145.textContent = 'Download the Care Health Customer App from the Play Store or App Store.';
-          liEl145.append(strongEl57);
+          const strongEl57 = document.createElement('strong');
+          strongEl57.textContent = 'Step 1:';
+          liEl145.prepend(strongEl57);
           ulEl29.append(liEl145);
-
+          
           const liEl146 = document.createElement('li');
-          liEl146.textContent = 'Download the Care Health Customer App from the Play Store or App Store.';
+          liEl146.textContent = 'Create an account and log in to your Care Health account.';
           const strongEl58 = document.createElement('strong');
           strongEl58.textContent = 'Step 2:';
-          liEl146.append(strongEl58);
+          liEl146.prepend(strongEl58);
           ulEl29.append(liEl146);
-
+          
           const liEl147 = document.createElement('li');
-          liEl147.textContent = 'Download the Care Health Customer App from the Play Store or App Store.';
+          liEl147.textContent = 'Browse and choose the health insurance plan that fits your needs.';
           const strongEl59 = document.createElement('strong');
           strongEl59.textContent = 'Step 3:';
-          liEl147.append(strongEl59);
+          liEl147.prepend(strongEl59);
           ulEl29.append(liEl147);
-
+          
           const liEl148 = document.createElement('li');
-          liEl148.textContent = 'Download the Care Health Customer App from the Play Store or App Store.';
+          liEl148.textContent = 'Enter personal details and required health information to complete the application.';
           const strongEl60 = document.createElement('strong');
           strongEl60.textContent = 'Step 4:';
-          liEl148.append(strongEl60);
+          liEl148.prepend(strongEl60);
           ulEl29.append(liEl148);
-
+          
           const liEl149 = document.createElement('li');
-          liEl149.textContent = 'Download the Care Health Customer App from the Play Store or App Store.';
+          liEl149.textContent = 'Review your details and confirm your policy for activation.';
           const strongEl61 = document.createElement('strong');
           strongEl61.textContent = 'Step 5:';
-          liEl149.append(strongEl61);
+          liEl149.prepend(strongEl61);
           ulEl29.append(liEl149);
+          
           divEl3.append(ulEl29);
-
+          
           const pEl76 = document.createElement('p');
           pEl76.textContent = 'You can also track the status of the claim, just click on the ‘Claim Tracking’ option on the homepage. The list of active claims will be presented on the screen. Click on “Track Claim” on the relevant claim. The latest claim status will then be displayed on top of the screen. This app can also be used to download the query/settlement letter or approval letter.';
           divEl3.append(pEl76);
@@ -3137,8 +3116,9 @@ liEl37.textContent = 'Health Insurance from Care protects you against pre- and p
           divEl68.append(h3El28);
 
           const pEl78 = document.createElement('p');
-
+          pEl78.textContent = 'Read our terms and conditions to understand the details of your insurance policy.';
           const aEl17 = document.createElement('a');
+          
           aEl17.setAttribute('href', 'https://www.careinsurance.com/terms_conditions.html');
           aEl17.textContent = 'terms and conditions';
           pEl78.append(aEl17);
@@ -3157,7 +3137,7 @@ liEl37.textContent = 'Health Insurance from Care protects you against pre- and p
           divEl68.append(h3El30);
 
           const pEl80 = document.createElement('p');
-
+          pEl80.textContent = 'Read our terms and conditions to understand the details of your insurance policy.';
           const aEl18 = document.createElement('a');
           aEl18.setAttribute('href', 'https://www.careinsurance.com/health-insurance/mediclaim-policy');
           aEl18.textContent = 'mediclaim policy';
