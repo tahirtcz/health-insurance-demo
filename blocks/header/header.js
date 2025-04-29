@@ -1,6 +1,7 @@
 export default function decorate(block) {
   const container = document.createElement('div');
   container.setAttribute('class', 'container');
+  // const homeImage = block.querySelector("div > p > picture > img").src;
 
   const headerEl = document.createElement('header');
   headerEl.setAttribute('class', 'navigation');
