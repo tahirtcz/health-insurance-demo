@@ -4736,34 +4736,31 @@ const sectionEl17 = document.createElement('section');
 
               const sectionEl25 = document.createElement('section');
               sectionEl25.setAttribute('class', 'faq_tab_section');
-
               const ulEl30 = document.createElement('ul');
               ulEl30.setAttribute('class', 'faq_tab_section_tabs');
-
-              const liEl150 = document.createElement('li');
-              liEl150.setAttribute('class', 'active');
-              liEl150.textContent = 'General';
-              ulEl30.append(liEl150);
-
-              const liEl151 = document.createElement('li');
-              liEl151.textContent = 'Insurance Terms';
-              ulEl30.append(liEl151);
-
-              const liEl152 = document.createElement('li');
-              liEl152.textContent = 'Coverage';
-              ulEl30.append(liEl152);
-
-              const liEl153 = document.createElement('li');
-              liEl153.textContent = 'Renewal';
-              ulEl30.append(liEl153);
-
-              const liEl154 = document.createElement('li');
-              liEl154.textContent = 'Claim';
-              ulEl30.append(liEl154);
+              
+              const tabData = [
+                { text: 'General', contentId: 'content-general' },
+                { text: 'Insurance Terms', contentId: 'content-insurance' },
+                { text: 'Coverage', contentId: 'content-coverage' },
+                { text: 'Renewal', contentId: 'content-renewal' },
+                { text: 'Claim', contentId: 'content-claim' }
+              ];
+              
+              tabData.forEach((tab, index) => {
+                const li = document.createElement('li');
+                li.textContent = tab.text;
+                li.dataset.target = tab.contentId;
+                if (index === 0) li.classList.add('active');
+                ulEl30.append(li);
+              });
+              
               sectionEl25.append(ulEl30);
+          
+       
 
               const articleEl44 = document.createElement('article');
-              articleEl44.setAttribute('class', 'faq_tab_section_tab_content active');
+              articleEl44.setAttribute('class', 'faq_tab_section_tab_content content-general');
 
               const asideEl19 = document.createElement('aside');
               asideEl19.setAttribute('class', 'faq_acc');
@@ -5022,7 +5019,7 @@ const sectionEl17 = document.createElement('section');
               sectionEl25.append(articleEl44);
 
               const articleEl45 = document.createElement('article');
-              articleEl45.setAttribute('class', 'faq_tab_section_tab_content');
+              articleEl45.setAttribute('class', 'faq_tab_section_tab_content content-insurance');
 
               const asideEl36 = document.createElement('aside');
               asideEl36.setAttribute('class', 'faq_acc');
@@ -5281,7 +5278,7 @@ const sectionEl17 = document.createElement('section');
               sectionEl25.append(articleEl45);
 
               const articleEl46 = document.createElement('article');
-              articleEl46.setAttribute('class', 'faq_tab_section_tab_content');
+              articleEl46.setAttribute('class', 'faq_tab_section_tab_content content-coverage');
 
               const asideEl53 = document.createElement('aside');
               asideEl53.setAttribute('class', 'faq_acc');
@@ -5360,7 +5357,7 @@ const sectionEl17 = document.createElement('section');
               sectionEl25.append(articleEl46);
 
               const articleEl47 = document.createElement('article');
-              articleEl47.setAttribute('class', 'faq_tab_section_tab_content');
+              articleEl47.setAttribute('class', 'faq_tab_section_tab_content content-renewal');
 
               const asideEl58 = document.createElement('aside');
               asideEl58.setAttribute('class', 'faq_acc');
@@ -5424,7 +5421,7 @@ const sectionEl17 = document.createElement('section');
               sectionEl25.append(articleEl47);
 
               const articleEl48 = document.createElement('article');
-              articleEl48.setAttribute('class', 'faq_tab_section_tab_content');
+              articleEl48.setAttribute('class', 'faq_tab_section_tab_content content-claim');
 
               const asideEl62 = document.createElement('aside');
               asideEl62.setAttribute('class', 'faq_acc');
@@ -5529,4 +5526,48 @@ const sectionEl17 = document.createElement('section');
 
               block.textContent = '';
               block.append(container);
+              accordion()
           }
+
+          function accordion() {
+    const tabs = document.querySelectorAll('.faq_tab_section_tabs > li');
+    const contents = document.querySelectorAll('.faq_tab_section_tab_content');
+
+    // Tab click logic
+    tabs.forEach(li => {
+        li.addEventListener('click', function () {
+            tabs.forEach(el => el.classList.remove('active'));
+            contents.forEach(el => el.style.display = "none");
+
+            this.classList.add('active');
+            const containerId = this.getAttribute("data-target");
+
+            const contentEl = document.querySelector(".faq_tab_section_tab_content." + containerId);
+            if (contentEl) contentEl.style.display = "block";
+        });
+    });
+
+    // Default active (first tab)
+    if (tabs.length > 0) {
+        tabs[0].click();
+    }
+
+    // Toggle behavior for <aside class="faq_acc">
+    const asideElements = document.querySelectorAll('.faq_acc');
+    asideElements.forEach(aside => {
+        aside.addEventListener('click', function () {
+            const isActive = this.classList.contains('active');
+
+            // Remove active from all
+            asideElements.forEach(el => el.classList.remove('active'));
+
+            // If this wasn't active before, make it active
+            if (!isActive) {
+                this.classList.add('active');
+            }
+        });
+    });
+}
+        
+        
+        
