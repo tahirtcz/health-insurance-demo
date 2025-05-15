@@ -8,18 +8,6 @@ export default function decorate(block) {
   const divEl = document.createElement('div');
   divEl.setAttribute('class', '');
 
-  const divEl2 = document.createElement('div');
-  divEl2.setAttribute('class', 'category_cms');
-
-  const h2El = document.createElement('h2');
-  h2El.setAttribute('id', 'what-is-health-insurance');
-  h2El.textContent = 'What is Health Insurance?';
-  divEl2.append(h2El);
-
-  const pEl = document.createElement('p');
-  pEl.textContent = 'Health insurance, also called medical insurance, is a financial instrument that protects your savings in case of medical emergencies or planned treatments. Health insurance policy will help you alleviate the financial burden of any medical emergency. Further, it also provides tax savings of up to ₹75,000 on the premium amount according to Section 80D of the Income Tax Act.';
-  divEl2.append(pEl);
-  divEl.append(divEl2);
 
     const sectionEl2 = document.createElement('section');
           sectionEl2.setAttribute('class', 'product_card_section');

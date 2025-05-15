@@ -2,9 +2,9 @@ export default function decorate(block) {
     const container = document.createElement('div');
     container.setAttribute('class', 'container');
     
-      const  leftText = block.querySelector("div > div > div > div:nth-child(1) > p").textContent;
-      const rightImage = block.querySelector("div > div > div > div:nth-child(2) > p > picture > img").src;
-      const rightText = block.querySelector("div > div > div > div:nth-child(2) > p").textContent;
+      // const  leftText = block.querySelector("div > div > div > div:nth-child(1) > p").textContent;
+      // const rightImage = block.querySelector("div > div > div > div:nth-child(2) > p > picture > img").src;
+      // const rightText = block.querySelector("div > div > div > div:nth-child(2) > p").textContent;
      
     const sectionEl = document.createElement('section');
     sectionEl.setAttribute('class', 'JFM_Banner d-flex');
@@ -17,7 +17,7 @@ export default function decorate(block) {
         pEl.setAttribute('class', 'mobile_hide');
           
           const spanEl = document.createElement('span');
-          spanEl.textContent = leftText;
+          spanEl.textContent = "Save tax up to ₹75,000~ u/s 80D";
           pEl.append(spanEl);
        
       articleEl.append(pEl);
@@ -29,13 +29,13 @@ export default function decorate(block) {
           svgEl.setAttribute('width', '24');
           svgEl.setAttribute('height', '24');
   
-          svgEl.setAttribute('src', rightImage);
+          svgEl.setAttribute('src', "https://main--health-insurance-demo--eds-dwao.aem.live/media_181ab96d0bb0c770df1c77981d8421a47f7993db0.png?width=750&format=png&optimize=medium");
         asideEl.append(svgEl);
   
           const aEl = document.createElement('a');
           aEl.setAttribute('href', 'tel:1800-102-4499');
           aEl.setAttribute('id', 'buypolicy_tollfree');
-          aEl.textContent = rightText;
+          aEl.textContent = "Buy New Policy :1800-102-4499";
         asideEl.append(aEl);
       articleEl.append(asideEl);
     sectionEl.append(articleEl);
